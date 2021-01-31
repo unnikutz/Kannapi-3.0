@@ -11,6 +11,6 @@ for (let file of files) {
   if (file == path.join(__dirname, __filename)) continue
   console.error('Checking', file)
   spawn('node', ['-c', file])
-  .on('exit', () => assert.ok(file) & console.log('Done', file))
+  .on('exit', () => assert.ok(file) & console.log('Done' , file))
   .stderr.on('data', chunk => assert.fail(chunk.toString()))
 }
