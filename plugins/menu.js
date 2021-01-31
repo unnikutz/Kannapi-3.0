@@ -60,7 +60,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
           if (menu.help) groups[tag].push(menu)
     }
     conn.menu = conn.menu ? conn.menu : {}
-    let before = conn.menu.before || `${conn.getName(conn.user.jid)} • Bot\n\nHai, %name!\n Total: *%exp XP*\n\n*Limit Anda:* %limit\n*Tanggal:* *%week, %date*\nTime: *%time*\n_Uptime: %uptime_\n*Many Users:* %totalreg\n\n🤖 YOUTUBE:\nhttps://youtube.com/c/MrRavanan\nScript ©__MR_RAVANAN\n\n 🔰 SUPPORT YOUTUBE [MAKE YOUR OWN WHAT'S APP BOT]🔰\nhttps://youtube.com/c/MrRavanan\n`
+    let before = conn.menu.before || `${conn.getName(conn.user.jid)} • WhatsAlexa\n\nHai Bro!!🐱🙋‍♂️ ©__Abhinav
     let header = conn.menu.header || '╭════•›「 %category 」'
     let body   = conn.menu.body   || '┠❥ %cmd%islimit'
     let footer = conn.menu.footer || '╰═══════════════\n'
