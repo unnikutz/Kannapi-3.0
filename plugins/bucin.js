@@ -143,4 +143,4 @@ global.bucin = [
    "Only one wish, loved by you ..",
    "I'm without you like an ambulance without wiuw wiuw.",
    "It's enough that Antarctica is far away. Not Antarctica."
- ]
+  
