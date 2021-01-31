@@ -79,6 +79,7 @@ function uploadImage(buffer) {
                 body: form
             })
             let img = await res.json()
+            No img when it is sticker = resolved
             if (img.error) reject(img.error)
             else resolve('https://telegra.ph' + img[0].src)
         } catch (e) {
