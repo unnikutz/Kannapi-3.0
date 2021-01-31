@@ -1,4 +1,4 @@
-# KANNAPI 3.0
+# WhatsAlexa 3.0
 Simple WhatsApp Bot
 
 ### FOR TERMUX USER
@@ -36,6 +36,6 @@ Simple WhatsApp Bot
 
 # Sosmed And Creator
 ```thanks
-> Instagram: https://instagram.com/__mr_ravanan?igshid=1lu9qhoz5czrn
-> YouTube: https://youtube.com/c/MrRavanan
-> CREDIT: mr.ravanan ™
+> Instagram: @gdk_unni_yt
+> YouTube: GDK UNNI 
+> CREDIT: Abhinav
