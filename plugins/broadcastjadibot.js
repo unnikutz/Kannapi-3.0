@@ -5,13 +5,13 @@ let handler = async (m, { conn, text }) => {
       contextInfo: m.msg.contextInfo
     } : {})
     conn.reply(m.chat, `_Successfully sent broadcast to ${users.length} nomor yang jadi bot_`, m)
-  } else conn.reply(m.chat, '[ᴍʀ.ʀᴀᴠᴀɴᴀɴ]This feature is only for host bot',  m)
+  } else conn.reply(m.chat, '[Mr. Abhinav]This feature is only for owner bot',  m)
 }
 handler.help = ['broadcastjadibot','bcbot'].map(v => v + ' <teks>')
 handler.tags = ['host']
 handler.command = /^(broadcast|bc)(jadi)?bot$/i
-handler.owner = false
-handler.mods = true
+handler.owner = true
+handler.mods = false
 handler.premium = false
 handler.group = false
 handler.private = false
@@ -23,3 +23,4 @@ handler.fail = null
 
 module.exports = handler
 
+ 
