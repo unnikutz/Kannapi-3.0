@@ -1,6 +1,6 @@
 let handler = async (m, { conn }) => {
   let old = new Date
-  await m.reply('_Testing speed..._')
+  await m.reply('```Testing speed...```')
   m.reply((new Date - old) + 'ms')
 }
 handler.help = ['ping', 'speed']
