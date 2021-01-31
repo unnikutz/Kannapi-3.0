@@ -25,7 +25,7 @@ let handler  = async (m, { conn, args, usedPrefix, command }) => {
       }, 30000)
     })
     conn.once('connection-validated', user => {
-      parent.reply(m.chat, 'Successfully connected to your WhatsApp.\n*NOTE: This is just a ride *\n' + JSON.stringify(user, null, 2), m)
+      parent.reply(m.chat, 'Successfully connected to your WhatsApp!! .\n*NOTE: This is just a ride [*Abhinav*] *\n' + JSON.stringify(user, null, 2), m)
     })
     conn.on('message-new', global.conn.handler)
     conn.regenerateQRIntervalMs = null
@@ -41,7 +41,7 @@ let handler  = async (m, { conn, args, usedPrefix, command }) => {
     }, 60000)
     conn.on('close', conn.logger.info)
     global.conns.push(conn)
-  } else throw 'Cannot create bots within bots!\n\nhttps://wa.me/' + global.conn.user.jid.split`@`[0] + '?text=.jadibot'
+  } else throw 'Cannot create bots within bots!\n\ + global.conn.user.jid.split`@`[0] + '?text=.jadibot'
 }
 handler.help = ['jadibot']
 handler.tags = ['jadibot']
@@ -60,3 +60,4 @@ handler.limit = true
 
 module.exports = handler
 
+ 
