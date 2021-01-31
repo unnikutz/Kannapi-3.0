@@ -18,7 +18,7 @@ handler.botAdmin = false
 handler.fail = null
 handler.exp = 0
 
-module.exports = handler
+module.exports = handler 
 
 async function stylizeText(text) {
     let res = await fetch('http://qaz.wtf/u/convert.cgi?text=' + encodeURIComponent(text))
